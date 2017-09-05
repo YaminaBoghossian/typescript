@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        //sourcemap : petits fich json qui determinent a quelle ligne correspond telle ou telle erreur
+        "sourceMap": true,
+        "outDir": "dist",
+        //target : dans quelle version / langage on compile 
+        "target": "es5",
+        "watch": true
+
+    } 
+}
