@@ -17,4 +17,5 @@ let monTableau:string[] = [];
 monTableau.filter(function(valeur){
     return valeur === 'bloup';
 });
+
 monTableau.filter((valeur) => valeur === 'bloup');
