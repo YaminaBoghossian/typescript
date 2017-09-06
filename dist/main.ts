@@ -19,3 +19,9 @@ let nouveau = req.body.nouveau;
 todo.ajouter(nouveau);
 res.end('todo ajouté');
 });
+
+router.delete('/',(req, res)=>{
+    let suppr = req.body.suppr;
+    todo.supprimer(suppr);
+    res.end('todo supprimé');
+});
