@@ -1,4 +1,12 @@
 var maVariable = 'bloup';
 let varNumber:number = 100;
-var doudidou = 'blip';
+let tableauString:string[] =[
+    "ga",
+    "zo",
+    "bu"
+    ];
 
+    function maFonction(arg:string):number{
+        return arg.length;
+    }
+    
