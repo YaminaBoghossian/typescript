@@ -1,3 +1,4 @@
+
 /*
 On peut faire en typescript des classes assez similaires
 à celle du PHP avec des propriétés typées, des visibilités
